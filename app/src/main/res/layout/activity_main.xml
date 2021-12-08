@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mcflurry.seamcarving.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="SeamCarving"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_launcher_background"
+        android:drawableLeft="@android:drawable/ic_menu_gallery"
+        android:text="From Gallery" />
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_gallery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@android:drawable/ic_menu_camera"
+        android:text="From Camera" />
+
+</RelativeLayout>
